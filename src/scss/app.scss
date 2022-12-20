@@ -18,12 +18,9 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $background;
 }
-
-.main {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
+.container {
+  background-color: red;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px;
+  display: grid;
 }
